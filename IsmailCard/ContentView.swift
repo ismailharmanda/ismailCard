@@ -14,8 +14,15 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(.all)
             VStack {
                 VStack {
+                    Image("ismail")
+                        .resizable().aspectRatio(contentMode: .fit).frame(width: 200).clipShape(Circle()).overlay(Circle().stroke(Color.white,lineWidth: 5))
                     Text("ismail harmanda")
                         .font(Font.custom("Pacifico-Regular", size: 40)).bold().foregroundColor(.white)
+                    Text("Mobile Developer")
+                        .foregroundColor(.white)
+                        .font(.system(size: 25))
+                    Divider()
+                    
                 }
             }
         }
