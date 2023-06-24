@@ -11,6 +11,7 @@
 		ECA6B3E12A471747000BF702 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA6B3E02A471747000BF702 /* ContentView.swift */; };
 		ECA6B3E32A471748000BF702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA6B3E22A471748000BF702 /* Assets.xcassets */; };
 		ECA6B3E62A471748000BF702 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA6B3E52A471748000BF702 /* Preview Assets.xcassets */; };
+		ECA6B3EE2A471EDD000BF702 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECA6B3ED2A471EDD000BF702 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		ECA6B3E02A471747000BF702 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECA6B3E22A471748000BF702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECA6B3E52A471748000BF702 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECA6B3ED2A471EDD000BF702 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		ECA6B3EF2A472209000BF702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		ECA6B3DD2A471747000BF702 /* IsmailCard */ = {
 			isa = PBXGroup;
 			children = (
+				ECA6B3EF2A472209000BF702 /* Info.plist */,
+				ECA6B3EC2A471EC2000BF702 /* fonts */,
 				ECA6B3DE2A471747000BF702 /* IsmailCardApp.swift */,
 				ECA6B3E02A471747000BF702 /* ContentView.swift */,
 				ECA6B3E22A471748000BF702 /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				ECA6B3E52A471748000BF702 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECA6B3EC2A471EC2000BF702 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ECA6B3ED2A471EDD000BF702 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA6B3EE2A471EDD000BF702 /* Pacifico-Regular.ttf in Resources */,
 				ECA6B3E62A471748000BF702 /* Preview Assets.xcassets in Resources */,
 				ECA6B3E32A471748000BF702 /* Assets.xcassets in Resources */,
 			);
@@ -270,6 +284,7 @@
 				DEVELOPMENT_TEAM = P2R7PD8VGY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IsmailCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +314,7 @@
 				DEVELOPMENT_TEAM = P2R7PD8VGY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IsmailCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

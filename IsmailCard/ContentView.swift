@@ -10,14 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
-            Color(.systemGreen).edgesIgnoringSafeArea(.all)
+            Color(red: 0.09, green: 0.63, blue: 0.52, opacity: 1)
+                .edgesIgnoringSafeArea(.all)
             VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundColor(.accentColor)
-                Text("Hello, world!")
+                VStack {
+                    Text("ismail harmanda")
+                        .font(Font.custom("Pacifico-Regular", size: 40)).bold().foregroundColor(.white)
+                }
             }
-            .padding()
         }
         
     }
